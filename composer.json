@@ -1,0 +1,11 @@
+{
+    "name": "hexlet/code",
+    "type": "library",
+    "bin": [
+        "bin/brain-games"
+    ],
+    "description": "hexlet php-package",
+
+    "license": "proprietary",
+    "require": {}
+}
