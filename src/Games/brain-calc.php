@@ -17,7 +17,6 @@ function calculate(string $expr): string
             return (string) ((int) $tokens[0] * (int) $tokens[2]);
         default:
             return '';
-
     }
 }
 

@@ -5,7 +5,6 @@ namespace BrainGames\Even;
 use function cli\line;
 use function cli\prompt;
 
-
 function start_even(int $rounds): bool
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
