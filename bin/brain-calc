@@ -3,11 +3,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use BrainGames\Even;
+use BrainGames\Calc;
 use BrainGames\Cli;
 use BrainGames\Engine;
 
 $name = Cli\greeting();
 $rounds = 3;
-$result = Even\start_even($rounds);
+$result = Calc\start_calc($rounds);
 Engine\result($result, $name);

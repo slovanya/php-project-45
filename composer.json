@@ -7,7 +7,10 @@
     ],
     "autoload": {
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/Engine.php",
+            "src/Games/brain-even.php",
+            "src/Games/brain-calc.php"
         ]
     },
     "description": "hexlet php-package",

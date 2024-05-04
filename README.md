@@ -2,6 +2,7 @@ Brain-Even. First game example.
 
 [![asciicast](https://asciinema.org/a/043AcrpfqaLdILrnsEGExckuv.svg)](https://asciinema.org/a/043AcrpfqaLdILrnsEGExckuv)
 
+[Brain-Calc.](https://asciinema.org/a/6Um8kSgk04F6EwlzC8Ou4h4SL)
 <a href="https://codeclimate.com/github/slovanya/php-project-45/maintainability"><img src="https://api.codeclimate.com/v1/badges/f8cf69fc2a8b2ca156f4/maintainability" /></a>
 
 ### Hexlet tests and linter status:
