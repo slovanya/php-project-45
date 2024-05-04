@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use BrainGames\Gcd;
+use BrainGames\Cli;
+use BrainGames\Engine;
+
+$name = Cli\greeting();
+$rounds = 3;
+$result = Gcd\start_gcd($rounds);
+Engine\result($result, $name);

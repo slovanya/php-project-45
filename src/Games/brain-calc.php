@@ -2,7 +2,6 @@
 
 namespace BrainGames\Calc;
 
-use ErrorException;
 use function cli\line;
 use function cli\prompt;
 
