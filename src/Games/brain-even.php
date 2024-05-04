@@ -11,7 +11,11 @@ function start_even(int $rounds): bool
 
     for ($i = 0; $i < $rounds; $i++) {
         $x = rand(1, 100);
-        $res = $x % 2 ? 'no' : 'yes';
+        if ($res = $x % 2 === 1) {
+            $res = 'no';
+        } else {
+            $res = 'yes';
+        }
         line("Question: {$x}");
         $answer = prompt("Your answer");
 
