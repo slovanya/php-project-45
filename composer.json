@@ -5,7 +5,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-gcd",
-        "bin/brain-progression"
+        "bin/brain-progression",
+        "bin/brain-prime"
     ],
     "autoload": {
         "files": [
@@ -14,7 +15,8 @@
             "src/Games/brain-even.php",
             "src/Games/brain-calc.php",
             "src/Games/brain-gcd.php",
-            "src/Games/brain-progression.php"
+            "src/Games/brain-progression.php",
+            "src/Games/brain-prime.php"
         ]
     },
     "description": "hexlet php-package",

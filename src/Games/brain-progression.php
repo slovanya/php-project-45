@@ -27,7 +27,6 @@ function start_Progression(int $rounds): bool
         $firstNumber = rand(1, 100);
         $length = rand(5, 10);
         $increment = rand(1, 5);
-        echo "$firstNumber $increment $length";
         $row = generateProgression($firstNumber, $increment, $length);
         $place = rand(0, $length);
         $pokedNumber = $firstNumber + $increment * $place;
