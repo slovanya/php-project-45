@@ -2,7 +2,8 @@
     "name": "hexlet/code",
     "type": "library",
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games",
+        "bin/brain-even"
     ],
     "autoload": {
         "files": [
