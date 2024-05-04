@@ -12,18 +12,19 @@ $name = greeting();
 line('Answer "yes" if the number is even, otherwise answer "no".');
 
 for ($i = 0; $i < 3; $i++) {
-
     $x = rand(1, 100);
-    $res = $x % 2;
+    $res = $x % 2 ? 'yes' : 'no';
 
     line("Question: {$x}");
     $answer = prompt("Your answer");
-    if (($res === 0 && $answer === 'yes') || ($res === 1 && $answer === 'no')) {
+
+    if ($res === $answer) {
         line('Correct!');
     } else {
         line("'{$answer}' is wrong answer ;(. Correct answer was 'no'.
-Let's try again, {$name}!");
+                Let's try again, {$name}!");
         break;
     }
+
     line("Congratulations, {$name}!");
 }
