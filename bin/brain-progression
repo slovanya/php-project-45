@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use BrainGames\Progression;
+use BrainGames\Cli;
+use BrainGames\Engine;
+
+$name = Cli\greeting();
+$rounds = 3;
+$result = Progression\start_progression($rounds);
+Engine\result($result, $name);
