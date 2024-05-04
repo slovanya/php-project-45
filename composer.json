@@ -19,7 +19,7 @@
             "src/Games/brain-prime.php"
         ]
     },
-    "description": "hexlet php-package",
+    "description": "hexlet-php-project-45",
     "license": "proprietary",
     "require": {
         "wp-cli/php-cli-tools": "^0.11.22"
