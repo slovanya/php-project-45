@@ -7,7 +7,7 @@ use BrainGames\Calc;
 use BrainGames\Cli;
 use BrainGames\Engine;
 
-$name = Cli\greeting();
+$name = Cli\greetingCalc();
 $rounds = 3;
 $result = Calc\start_calc($rounds);
 Engine\result($result, $name);
